@@ -65,3 +65,9 @@ nb.fit(x_train, y_train)
 y_pred = nb.predict(x_test)
 #Check performance of model
 print(accuracy_score(y_test, y_pred))
+
+
+"""
+From the accuracy score, it can be seen that the value is 48% which in my opinion still needs to be improved again.
+From my analysis, why the accuracy value of the Naive Bayes model is so low is due to imbalanced data.
+"""
