@@ -1,0 +1,9 @@
+Handling imbalanced classes :
+
+imbalanced classes implies when a dataset contains data of one particular to be in high than the other by a significant amount where the model tend to predict that particular label as every possible outcome for a test set.
+So to handle that situtation we either  go for Upsampling or Downsampling.
+Upsampling : In Upsampling we try to increase the data of a class with less instances (minority class) by using SMOTE technique. Where as we come up with a function that takes the data repeatedly from the minority class, with
+replacement until the class is as same size as Majority class. With replacement means the same sample can be used multiple times.
+
+Downsampling : When Downsampling we use the Majority class without replacement, until it is the same size of the minority class. without replacement means we use the sample only once.
+

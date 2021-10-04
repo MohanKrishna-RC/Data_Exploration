@@ -1,0 +1,20 @@
+#CountVectorizer
+
+In order for machine leaning algorithm to detect patterns in text, they need to be converted into numeric structure. 
+Most common technique for this is Bag of Words ( BoW).
+
+A BoW model splits the words in a piece of text into tokens disregarding grammar and word order. The model also counts
+the frequency in which a word occurs in the texr, and assigns a weight proportional to its frequency.
+The output is a matrix of term frequencies where each row represents the text and each column a word in the 
+vocabulary.
+
+#Tfidf_Transformer :
+BoW model can be built in three steps. Firs step is to split the words into tokens and counting the frequency. Third step is to apply the frequency
+weighting.
+
+Skitin-learn has CountVectorizer that accomplishes the  first two tasks, whereas for third task we can use Tfidf_Transformer from skitin-learn.
+
+In any given text document there will be a number of words that appear very frequently such as I, we and get. If we were to build a model without 
+weighting these words they would overshadow less frequent words during training. By weighting these high frequency words we can assign, for 
+example. more importance to less frequent but perhaps more useful words.
+
