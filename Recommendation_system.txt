@@ -1,0 +1,17 @@
+#Recommendation Engine
+
+Recommendation engines are data filtering tools that work in the interest of a particular user. For this purpose, they use algorithms and searched data and then
+mention it as a recommendation in the sidebar of a particular problem.
+
+Use case : TitTok recommendation system.
+
+It conisders suggestion from both the consumer and producer's side.
+
+Cold start problem :
+
+It provides users each one of different categories of videos  and based on the interest of user, they keep on recommending similar videos.
+
+The TitTok AI algorithm uses collabarative filtering for suggesting videos.
+
+When the algorithm has enough data of the user, it is able to figure out a user's preferences in relation to similar users, and then they will be grouped into clusters.
+

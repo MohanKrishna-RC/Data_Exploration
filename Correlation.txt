@@ -7,3 +7,21 @@ replacement until the class is as same size as Majority class. With replacement 
 
 Downsampling : When Downsampling we use the Majority class without replacement, until it is the same size of the minority class. without replacement means we use the sample only once.
 
+#Multicollinearity 
+
+If the dataset has perfectly positive or negative attributes, then there is a hgh chance that perfomance of the model gets imapcted by a problem called Multicollinearity.
+Multicollinearity happens when one predictor varaible in a multiple regression model can be linearly predicted from the others
+with a high degree of accuracy. This can lead to skewed or misleading results. 
+Decision trees and boosted trees algorithms are immune to Multicollinearity by nature. When they decide to split, the tree will
+choose only one of the perfectly correlated features.
+However, other algorithms like Logistic Regression or Linear Regression are not immune to that problem and you should fix it before
+training the model.
+
+The easiest way to deal with this problem is to delete or eliminate one of the perfectly correlated features.
+Another way is to use a dimension reduction algorithm such as Principal Component Analysis (PCA).
+
+Pearson Correlation Coefficient can be used with continous variables that have a linear relationship.
+pearsonr(X,Y)
+
+If the relationship between the variables is non-linear, then we can use Spearman Correlation Coefficient.
+scipy.stats.spearmanr(X,Y)
