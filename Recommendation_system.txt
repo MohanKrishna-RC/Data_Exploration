@@ -16,3 +16,14 @@ The TitTok AI algorithm uses collabarative filtering for suggesting videos.
 When the algorithm has enough data of the user, it is able to figure out a user's preferences in relation to similar users, and then they will be grouped into clusters.
 
 TitTok algorithm is better working that Netflix or any other recommendation system, because it displays the videos to the user directly without recommendation any options.
+
+
+Recommendation systems depend on NLP for feature extraction or for text classification.
+
+Recommendation engines need to know the user better to be effective with their suggestion. Therefore, the Information they collect and integrate is a critical
+aspect of the process. This can be Information relating to explicit intercations, like past activity, you ratings, reviews and other information about user profile, such as age, gender, or investment objectives.
+These can combine with implicit interactions such as the device you use for access. cicks on a link, location and dates.
+
+There are three main types of techniques for Recommendation systems; 
+content based filtering, collabarative filtering and knowledge based system.
+
