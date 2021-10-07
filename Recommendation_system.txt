@@ -15,3 +15,4 @@ The TitTok AI algorithm uses collabarative filtering for suggesting videos.
 
 When the algorithm has enough data of the user, it is able to figure out a user's preferences in relation to similar users, and then they will be grouped into clusters.
 
+TitTok algorithm is better working that Netflix or any other recommendation system, because it displays the videos to the user directly without recommendation any options.
