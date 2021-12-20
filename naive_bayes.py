@@ -15,7 +15,7 @@ df = pd.read_csv('glass.csv')
 print(df.head())
 
 #Last 5 of the data
-print(df())
+print(df)
 
 #Viewing the number of rows (214) and number of columns / features (10)
 print(df.shape)
@@ -49,12 +49,15 @@ sns.boxplot(df['Na'], color='green')
 
 
 #Correlation between features
-df.corr().style.background_gradient().set_precision(2)
+print(df.corr().style.background_gradient().set_precision(2))
+
+# print(df)
 
 # Create a Naive Bayes object
 nb = GaussianNB()
 #Create variable x and y.
 x = df.drop(columns=['Type'])
+print(x)
 y = df['Type']
 #Split data into training and testing data
 x_train, x_test, y_train, y_test = train_test_split(

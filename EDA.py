@@ -119,4 +119,4 @@ def data_cleaner(df):
 
 
 # applying the function to train data
-train = clean_data(df)
+train = data_cleaner(df)
