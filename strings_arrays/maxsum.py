@@ -38,15 +38,11 @@ def subarray(nums):
         
     return subar
 def maxSum(result):
-    print(result)
-    # print(i,val)
-    maxi = 0
     # traversal in list of lists
     # res = max([ele for sub in result for ele in sub])
     s = max(result, key=sum)
-    a = sum(s)
-    return a
-    # return maxi
+    maxi = sum(s)
+    return maxi
 from collections import defaultdict
 
 def mssl(lst, return_sublist=False):

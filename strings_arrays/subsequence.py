@@ -60,16 +60,14 @@ def finaPowerset(seq):
 
 finaPowerset(input)
 
-#Substring
-"""
-A substring of a string s is a string s' that occurs in s.
-A substring is almost similar to a subarray, but it is in the
-context of strings.
-"""
-def printAllSubstrings(string):
-    for i in range(len(string)):
-        for j in range(i,len(string)):
-            print(string[i:j+1])
 
-printAllSubstrings(input)
+
+
+
+
+
+
+
+
+
 
