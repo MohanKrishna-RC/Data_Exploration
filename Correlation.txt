@@ -25,3 +25,8 @@ pearsonr(X,Y)
 
 If the relationship between the variables is non-linear, then we can use Spearman Correlation Coefficient.
 scipy.stats.spearmanr(X,Y)
+
+Dicitonaries are mutable
+Keys in Dicitonaries are not mutable
+sets are mutable
+tuples are immutable
