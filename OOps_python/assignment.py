@@ -1,34 +1,3 @@
-# def fun(string):
-#     ar = list(map(list,string))
-#     print(ar)
-#     return ar
-
-# if __name__=="__main__":
-#     string = input().split()
-#     arr = fun(string)
-#     print(arr)
-
-# def outerFun(a, b):
-
-#     def innerFun(c, d):
-
-#         return c + d
-
-#     return innerFun(a, b)
-
-#     return a
-
-
-# result = outerFun(5, 10)
-# print(result)
-
-# def gcd(A,B):
-#     b = gcd(A,abs(B-A))
-#     gcd(b,)
-#     print(b)
-#     return b
-# gcd(6,7)
-
 class Football:
   final_res = "lose"
   def __init__(self, name, score):
@@ -141,26 +110,9 @@ class Cat(Animal):
         print("Cat Meows")
 
 def main():
-# Create the instances for the classes here
     an = Animal()
     an.sound()
     dg = Dog()
     dg.sound()
     ct = Cat()
     ct.sound()
-
-
-def fun(s):
-    # YOUR CODE GOES HERE
-    try:
-        user, www = s.split("@")
-        web, ext = www.split(".")
-        if not user or not web or not ext:
-            return False
-        return not any([user != "".join(filter(lambda x: x.isalnum() or x in ["_", "-"], user)),
-            web != "".join(filter(lambda x: x.isalnum(), web)) , len(ext)>3])
-    except:
-        return False
-
-def filter_mail(emails):
-    return list(filter(fun, emails))
