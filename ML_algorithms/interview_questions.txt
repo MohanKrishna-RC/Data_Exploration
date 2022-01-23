@@ -1,0 +1,30 @@
+How does Gradient boosting works?
+
+Gradient boosting is a type of machine learning boosting. It relies on the intuition that the best
+possible next model, when combined with previous models minimizes the overall prediction error. If a
+small change in the prediction for a case causes no change in error, then next target outcome of the case is zero.
+Gradient boosting produces a prediction model in the form of an ensemble of weak prediction models, typically
+decision trees.
+
+Describe the decision tree model?
+
+Decision trees are a type of supervised machine learning model where the data is continuously split according
+to a certain parameter. The leaves are the decisions or the final outcomes. A decision tree is a machine learning
+algorithm that partitions the data into subsets.
+
+What is neural network?
+
+Neural networks are a set of algorithms, modeled loosely after the human brain, that are designed to recognize patterns.
+They interpret sensory data through a kind of machine perception, labeling or clustering raw input. They, also known as artificial
+neural networks, are the subsets of deep learning.
+
+Explain the bias-variance tradeoff?
+
+The bias-variance tradeoff is the property of a model that the variance of the parameter estimated across
+samples can be reduced by increasing the bias in the estimated parameters.
+
+L1 and L2 regularization?
+
+The main intuitive difference between the L1 and L2 regularization is that the L1 regularization tries to
+estimate the median of the data while the L2 regularization tries to estimate the mean of the data to avoid
+overfitting. That value will also be the median of the data distribution mathematically.
