@@ -1,5 +1,9 @@
 import re
 
+#Email indetify
+text = '"mkg3456-dfg.lj@gmail.com","hjdsfshgfhwj@gmail.com"'
+print(re.findall(r'[a-zA-Z0-9_\-\.]+[@][a-z]+[\.][a-z]{2,3}',text))
+
 # S = "asdfg12345!@#$%dsfjjhf"
 
 # res = re.findall(r'\w+', S)  #To find words in a string
@@ -101,3 +105,17 @@ print(re.sub(r'[\W_]+','',text1))
 #split string at uppercase letters
 text = "Python Exercises Are Good"
 print(re.findall(r'[A-Z][^A-Z]*',text))
+
+#find all adverbs and their positions
+text = "Clearly, he has no excuse for such behavior, fairly fup."
+for m in re.finditer(r"\w+ly", text):
+     print(m)
+     print('%d-%d: %s' % (m.start(), m.end(), m.group(0)))
+
+#split a string with multiple delimiters
+text = 'The quick brown\nfox jumps*over the lazy dog.'
+print(re.split('; |, |\*|\n',text))
+
+#check a decimal with a precision of 2.
+text = '123.11'
+print(bool(re.search(r"""[0-9]+(\.[0-9]{1-2})?$""",text)))
