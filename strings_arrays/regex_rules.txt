@@ -1,0 +1,23 @@
+[abc] - a,b or c
+[^abc] - anything except a,b,c
+[a-z] - a to z
+[^a-z] - anything other than a-z
+[A-Z] - A to Z
+[a-zA-Z] -- a to z, A to Z
+[0-9] -- 0 to 9
+
+#Quantifiers
+
+[ ]? -- Occurs 0 or 1 time
+[ ]+ -- Occurs 1 or more times
+[ ]* -- Occurs 0 or more times
+[ ]{n} -- Occurs n times
+[ ]{n,} -- Occurs n or more times
+[ ]{y,z} -- Occurs atleast y times,but less than z times
+
+#Regex metacharacters
+
+\d  [0-9]
+\D  [^0-9]
+\w  [a-zA-Z_0-9]
+\W  [^\w]
