@@ -117,5 +117,5 @@ text = 'The quick brown\nfox jumps*over the lazy dog.'
 print(re.split('; |, |\*|\n',text))
 
 #check a decimal with a precision of 2.
-text = '123.11'
-print(bool(re.search(r"""[0-9]+(\.[0-9]{1-2})?$""",text)))
+text = '123.1412'
+print(bool(re.search(r"^[0-9]+(\.[0-9]{1,2})?$",text)))
