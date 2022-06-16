@@ -1,0 +1,34 @@
+what is python?  #python is a high level, general purpose, interpreted, and dynamic programming language.
+what are the tuples in python? #tuple is a collection of data which is ordered, unchangable and allow duplicate values.
+
+"""Ordered"""
+When we say that tuples are ordered, it means that the items have a defined order, and that order will not change.
+
+"""Unchangeable"""
+Tuples are unchangeable, meaning that we cannot change, add or remove items after the tuple has been created.
+
+"""Allow Duplicates"""
+Since tuples are indexed, they can have items with the same value:
+("apple",) -- tuple
+("apple") -- not tuple
+what is the difference between tuples and lists in python?  #tuples are immutable and lists are mutable; tuples are more memory efficient than the lists.
+
+what is the output of the print tuple if tuple = ('abcd',786,2.23,'john',70.2)
+what are the python's dictionaries?
+How will you create a dictionary in python?  #dict = {"key":value}
+How will you get all the keys from the dictionary?   #dict.keys()
+How will you get all the values from the dictionary?  #dict.values()
+How will you convert a string to long in python?   #int(string,16)
+How will you set the starting value in generating random numbers? #random.randrange(start, stop[, step])
+How will you randomize the items of a list in place?  #random.shuffle(list)
+How will you capitalize the first letter of the string? #str.capitalize()
+How will you check in a string that all characters are alphanumeric?  #str.alpha()
+What are loops?  
+What is Data Abstraction?
+Define Low level programming language.
+What are Varaibles?
+What is sorting? Mention some types of sorting?
+What is Binary search and how is it used?
+Define High level programming language.
+What is Machine Code?
+What is Modelling language?
